@@ -1,3 +1,4 @@
+name: zmk-keyboard-hydrangea
 build:
   settings:
     board_root: .

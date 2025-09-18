@@ -1,0 +1,17 @@
+if SHIELD_HYDRANGEA_LEFT
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "Hydrangea"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_HYDRANGEA_LEFT || SHIELD_HYDRANGEA_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
