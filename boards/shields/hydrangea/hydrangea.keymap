@@ -28,8 +28,8 @@
                                                       &mo 1       &kp SPACE   &mo 2             &kp RALT    &kp SPACE   &kp RET
                   >;
                   };
-            utility_layer {
-                  display-name = "Utility Layer";
+//          utility_layer {
+//                display-name = "Utility Layer";
 //    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 //    | ESC       |  !        | @         | #         | $         | %         |  _              | =         | ^         | &         | *         | (         | )         |           |
 //    | KP_NUMLK  | KP_N7     | KP_N8     | KP_N9     | KP_N0     | KP_ENTER  | F04             | F07       | INS       | [         | ]         | {         | }         |           |
@@ -61,6 +61,6 @@
 //      &kp F9      &kp F10     &kp F11     &kp F12     &kp B      &kp SYSREQ   &trans            &trans      &trans &kp C_BRI_UP &kp C_BRI_DOWN  &trans      &trans      &trans      
 //                                                      &kp LALT   &kp LGUI     &trans            &trans      &trans      &trans
 //                  >;
-            };
+//            };
       };
 };
