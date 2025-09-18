@@ -3,5 +3,5 @@ config SHIELD_HYDRANGEA_LEFT
     def_bool $(shields_list_contains,hydrangea_left)
 
 # No whitespace after the comma or in your part name!
-config SHIELD_hydrangea_right
+config SHIELD_HYDRANGEA_RIGHT
     def_bool $(shields_list_contains,hydrangea_right)
