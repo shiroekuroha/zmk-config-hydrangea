@@ -48,14 +48,14 @@
             system_layer {
                   display-name = "SYSTEM Layer";
 //    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-//    | BT_SEL 0  | BT_SEL 1  | BT_SEL 2  | BT_SEL 3  | BT_SEL 4  | BT_NEXT   | SYS_RESET       |           |           |           |           |           |           |           |
+//    | BT_SEL 1  | BT_SEL 2  | BT_SEL 3  | BT_SEL 4  | BT_SEL 5  | BT_NEXT   | SYS_RESET       |           |           |           |           |           |           |           |
 //    |  F01      | F02       | F03       | F04       | E         | BT_PREV   | BOOTLOADER      |           |           | FWD       | BWD       | PLAY      |           |           |
 //    |  F05      | F06       | F07       | F08       | I         | BT_CLEAR  |                 |           |           | VOL_UP    | VOL_DOWN  | MUTE      |           |           |
 //    |  F09      | F10       | F11       | F12       | B         | SYSREQ    |                 |           |           | SCRN_UP   | SCRN_DOWN |           |           |           |
 //                                                    | L_ALT     | L_GUI     |                 |           | R_GUI     |           |
 //    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
             bindings = <
-      &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_NXT  &sys_reset   &trans      &trans      &trans      &trans      &trans      &trans      &trans      
+      &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5 &bt BT_NXT  &sys_reset   &trans      &trans      &trans      &trans      &trans      &trans      &trans      
       &kp F1      &kp F2      &kp F3      &kp F4      &kp E      &bt BT_PRV   &bootloader       &trans      &trans      &kp C_PREV  &kp C_NEXT  &kp C_PP    &trans      &trans      
       &kp F5      &kp F6      &kp F7      &kp F8      &kp I      &bt BT_CLR   &trans            &trans      &trans &kp C_VOLUME_UP &kp C_VOLUME_DOWN &kp C_MUTE &trans  &trans
       &kp F9      &kp F10     &kp F11     &kp F12     &kp B      &kp SYSREQ   &trans            &trans      &trans &kp C_BRI_UP &kp C_BRI_DOWN  &trans      &trans      &trans      
