@@ -38,17 +38,16 @@
 //    | L_SHIFT   | KP_N1     | KP_N2     | KP_N3     | KP_+      | KP_*      | F06             | F09       | PG_DOWN   | <         | >         | HOME      | END       | R_SHIFT   |
 //                                                    |           | L_GUI     | L_ALT           | R_ALT     | R_GUI     |           |
 //    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-//      &kp ESC     &kp EXCL    &kp AT      &kp HASH    &kp DOLLAR        &kp PRCNT         &kp UNDER         &kp EQUAL   &kp CARET   &kp AMPS    &kp ASTRK   &kp LPAR    &kp RPAR    &none
-//      &kp LNLCK   &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_N0         &kp KP_ENTER      &kp F4            &kp F7      &kp INS     &kp LBKT    &kp RBKT    &kp LBRC    &kp RBRC    &none
+//      &kp ESC     &kp EXCL    &kp AT      &kp HASH    &kp DOLLAR        &kp PRCNT         &kp UNDER         &kp EQUAL   &kp CARET   &kp AMPS    &kp ASTRK   &kp LPAR    &kp RPAR    &trans
+//      &kp LNLCK   &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_N0         &kp KP_ENTER      &kp F4            &kp F7      &kp INS     &kp LBKT    &kp RBKT    &kp LBRC    &kp RBRC    &trans
 //      &kp LCTRL   &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_MINUS      &kp KP_SLASH      &kp F5            &kp F8      &kp PG_UP   &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &kp RCTRL
 //      &kp LSHFT   &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_PLUS       &kp KP_ASTERISK   &kp F6            &kp F9      &kp PG_DOWN &kp LT      &kp GT      &kp HOME    &kp END     &kp RSHFT
-//                                                      &none            &kp LGUI          &kp LALT          &kp RALT    &kp RGUI    &none
-      &kp ESC     &kp EXCL    &kp AT      &kp HASH    &kp DOLLAR        &kp PRCNT         &kp UNDER          &kp EQUAL   &kp CARET   &kp AMPS      &kp N8      &kp N9      &kp N0      &kp BSPC
-      &kp LNLCK   &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_N0         &kp KP_ENTER      &kp F4             &kp F7      &kp INS     &kp LBKT       &kp I       &kp O       &kp P       &kp BSLH
-      &kp LCTRL   &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_MINUS      &kp KP_SLASH      &kp F5             &kp F8      &kp PG_UP   &kp LEFT       &kp K       &kp L       &kp SEMI    &kp APOS
-      &kp LSHFT   &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_PLUS       &kp KP_ASTERISK   &kp F6             &kp F9      &kp PG_DOWN &kp LT       &kp COMMA   &kp DOT     &kp FSLH    &kp RSHFT
-                                                      &none            &kp LGUI          &kp LALT           &kp RALT    &kp RGUI    &none
-                  >;
+//                                                      &trans            &kp LGUI          &kp LALT          &kp RALT    &kp RGUI    &trans
+      &kp ESC     &kp EXCL    &kp AT      &kp HASH    &kp DOLLAR        &kp PRCNT         &kp UNDER          &kp PLUS    &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &kp BSPC
+      &kp LNLCK   &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_N0         &kp KP_ENTER      &kp F4             &kp F10     &kp Y       &kp U       &kp I       &kp O       &kp P       &kp BSLH
+      &kp LCTRL   &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_MINUS      &kp KP_SLASH      &kp F5             &kp F11     &kp H       &kp J       &kp K       &kp L       &kp SEMI    &kp APOS
+      &kp LSHFT   &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_PLUS       &kp KP_ASTERISK   &kp F6             &kp F12     &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp RSHFT
+                                                      &trans            &kp LGUI          &kp LALT           &kp RALT    &kp SPACE   &kp RET
             };
 //            raise_layer {
 //                  display-name = "SYSTEM Layer";
@@ -60,11 +59,11 @@
 //    |  F09      | F10       | F11       | F12       | B         | SYSREQ    |                 |           |           | SCRN_UP   | SCRN_DOWN |           |           |           |
 //                                                    | L_ALT     | L_GUI     |                 |           | R_GUI     |           |
 //    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-//      &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4      &bt BT_NXT        &sys_reset        &none      &none      &none            &none            &none      &none      &none      
-//      &kp F1            &kp F2            &kp F3            &kp F4            &kp E             &bt BT_PRV        &bootloader       &none      &none      &kp C_PREV        &kp C_NEXT        &kp C_PP    &none      &none      
-//      &kp F5            &kp F6            &kp F7            &kp F8            &kp I             &bt BT_CLR        &none            &none      &none      &kp C_VOLUME_UP   &kp C_VOLUME_DOWN &kp C_MUTE  &none      &none
-//      &kp F9            &kp F10           &kp F11           &kp F12           &kp B             &kp SYSREQ        &none            &none      &none      &kp C_BRI_UP      &kp C_BRI_DOWN    &none      &none      &none      
-//                                                            &kp LALT          &kp LGUI          &none            &none            &none      &none
+//      &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4      &bt BT_NXT        &sys_reset        &trans      &trans      &trans            &trans            &trans      &trans      &trans      
+//      &kp F1            &kp F2            &kp F3            &kp F4            &kp E             &bt BT_PRV        &bootloader       &trans      &trans      &kp C_PREV        &kp C_NEXT        &kp C_PP    &trans      &trans      
+//      &kp F5            &kp F6            &kp F7            &kp F8            &kp I             &bt BT_CLR        &trans            &trans      &trans      &kp C_VOLUME_UP   &kp C_VOLUME_DOWN &kp C_MUTE  &trans      &trans
+//      &kp F9            &kp F10           &kp F11           &kp F12           &kp B             &kp SYSREQ        &trans            &trans      &trans      &kp C_BRI_UP      &kp C_BRI_DOWN    &trans      &trans      &trans      
+//                                                            &kp LALT          &kp LGUI          &trans            &trans            &trans      &trans
 //                  >;
 //            };
       };
