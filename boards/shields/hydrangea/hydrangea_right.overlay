@@ -2,7 +2,7 @@
 
 
 &default_transform {
-	col-offset = <11>;
+	col-offset = <7>;
 };
 
 // Label of the kscan node in the dtsi
