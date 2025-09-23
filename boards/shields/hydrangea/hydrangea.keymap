@@ -32,13 +32,13 @@
                   display-name = "Utility Layer";
                   bindings = <
 //    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-//    | ESC       |  !        | @         | #         | $         | %         |  _              | =         | ^         | &         | *         | (         | )         |           |
+//    | ESC       |  !        | @         | #         | $         | %         |  _              | =         | ^         | &         | *         | (         | )         | DEL       |
 //    | KP_NUMLK  | KP_N7     | KP_N8     | KP_N9     | KP_N0     | KP_ENTER  | F04             | F07       | INS       | [         | ]         | {         | }         |           |
 //    | L_CTRL    | KP_N4     | KP_N5     | KP_N6     | KP_-      | KP_/      | F05             | F08       | PAGE_UP   | LEFT      | DOWN      | UP        | RIGHT     | R_CTRL    |
 //    | L_SHIFT   | KP_N1     | KP_N2     | KP_N3     | KP_+      | KP_*      | F06             | F09       | PAGE_DOWNs| <         | >         | HOME      | END       | R_SHIFT   |
 //                                                    |           | L_GUI     | L_ALT           | R_ALT     | R_GUI     |           |
 //    -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-      &kp ESC     &kp EXCL    &kp AT      &kp HASH    &kp DOLLAR        &kp PRCNT         &kp UNDER         &kp EQUAL    &kp CARET        &kp AMPS    &kp ASTRK   &kp LPAR    &kp RPAR   &trans
+      &kp ESC     &kp EXCL    &kp AT      &kp HASH    &kp DOLLAR        &kp PRCNT         &kp UNDER         &kp EQUAL    &kp CARET        &kp AMPS    &kp ASTRK   &kp LPAR    &kp RPAR   &kp DEL
       &kp LNLCK   &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_N0         &kp KP_ENTER      &kp F4            &kp F7       &kp INS          &kp LBKT    &kp RBKT    &kp LBRC    &kp RBRC   &trans
       &kp LSHFT   &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_MINUS      &kp KP_SLASH      &kp F5            &kp F8       &kp PAGE_UP      &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT  &kp RSHFT
       &kp LCTRL   &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_PLUS       &kp KP_ASTERISK   &kp F6            &kp F9       &kp PAGE_DOWN    &kp LT      &kp GT      &kp HOME    &kp END    &kp RCTRL
