@@ -27,3 +27,5 @@ include:
     shield: hydrangea_right
     artifact-name: hydrangea_right
     snippet: zmk-usb-logging
+  - board: nice_nano_v2
+    shield: settings_reset
